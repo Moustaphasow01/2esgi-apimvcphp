@@ -9,7 +9,6 @@ class Model
 
     public function __construct($name){
         $this->name = $name;
-        $this->db = (new \Model\Bdd())->db;
     }
 
     function getData()
